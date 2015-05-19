@@ -37,8 +37,8 @@ bp = Blueprint("main", __name__)   # pylint: disable=invalid-name
 @bp.route("/lmgtfy", methods=["GET", "POST"])
 def cmd_hook():
     """ Hook for Slack command /lmgtfy that send back a link in the channel. """
-    channel = request.args["channel_name"]
-    text = request.args["text"]
+    channel = request.values["channel_name"]
+    text = request.values["text"]
     if not text:
         return "You need to add some search parameters", 500
     lmgtfy_url = get_lmgtfy_url(text)
