@@ -57,5 +57,5 @@ def cmd_hook():
 def get_lmgtfy_url(text):
     data = {}
     data["q"] = text
-    return "https://lmgtfy.com/" + urlencode(data)
+    return "http://lmgtfy.com/" + urlencode(data)
 
