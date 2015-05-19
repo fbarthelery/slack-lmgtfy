@@ -1,0 +1,35 @@
+Slack-lmgtfy : a /lmgtfy command for Slack
+===========================================
+
+Slack-lmgtfy is an http://www.lmgtfy.com integration for Slack.
+
+It add a /lmgtfy command that post the lmgtfy request url in a Slack channel.
+
+Install
+=======
+
+See INSTALL file.
+
+Use
+===
+
+Type
+
+    /lmgtfy [arguments]
+
+in a Slack channel
+
+Support & getting help
+======================
+
+Just drop me an email at da_risk@geekorum.com
+
+
+Contributing and helping out
+============================
+
+Slack-lmgtfy is built and maintained by community volunteers. If you enjoy using it and would like to give back to the community, feel free to contact us.
+
+
+Thank you for downloading Slack-lmgtfy
+

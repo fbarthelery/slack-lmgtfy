@@ -1,0 +1,19 @@
+Installation
+============
+
+Slack-lmgtfy will be (maybe) on Pypy and you will be able (eventually) to install it with pip
+
+    pip install slack-lmgtfy
+
+Dependencies
+============
+
+Slack-lmgtfy depends on the following Python packages:
+
+     * Flask: A microframework for web development
+     * requests: HTTP library for human beings
+
+Deploying
+=========
+
+TODO
