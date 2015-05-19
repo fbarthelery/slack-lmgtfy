@@ -49,6 +49,7 @@ def cmd_hook():
     webhook_url = current_app.config["SLACK_WEBHOOK_URL"]
     try:
         send_message(message, webhook_url)
+        return ""
     except SlackError:
         return "Unable to send link to slack channel", 500
 

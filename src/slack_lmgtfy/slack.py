@@ -9,7 +9,7 @@ class IncomingMessage(object):
         self._payload["text"] = text
 
     def set_channel(self, channel):
-        self._payload["channel"] = channel
+        self._payload["channel"] = "#" + channel
 
     def as_dict(self):
         return self._payload
